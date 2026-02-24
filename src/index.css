@@ -6643,13 +6643,13 @@ body.drawer-open {
 
 @media(min-width: 768px) {
   .timeline-item {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     text-align: left;
   }
 
   .timeline-item:nth-child(even) {
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
     text-align: right;
   }
 
@@ -6666,6 +6666,7 @@ body.drawer-open {
   }
 
   .timeline-item {
+    display: flex;
     flex-direction: column;
     text-align: center;
   }
