@@ -16,7 +16,7 @@ import Wishlist from "./pages/Wishlist";
 import Register from "./pages/Register";
 import WomenCollection from "./pages/WomenCollection";
 import MenCollection from "./pages/MenCollection";
-import About from "./pages/about";
+import About from './pages/About'
 
 /* ===== User Pages ===== */
 import Orders from "./pages/Order";
